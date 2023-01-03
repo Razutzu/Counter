@@ -1,7 +1,7 @@
 const { Client, WebhookClient, Intents, MessageEmbed } = require("discord.js");
 
 const webhookClient = new WebhookClient({
-	url: "https://discord.com/api/webhooks/992873888381931681/mkF6DLT84R0oZqovTIku5NnffWuK8ksy2o3V9UEnwfz3rTWqcEXMz26CxJm0X-Y40ZBo",
+	url: "your webhook url",
 });
 const client = new Client({ intents: new Intents(33313) });
 
