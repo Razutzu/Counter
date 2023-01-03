@@ -5,7 +5,7 @@ const webhookClient = new WebhookClient({
 });
 const client = new Client({ intents: new Intents(33313) });
 
-let lastNumber = 111;
+let lastNumber = 0;
 let nextNumber = lastNumber + 1;
 let lastUser = null;
 
